@@ -1,0 +1,12 @@
+.usersList {
+  padding: 0;
+  margin-top: 2rem;
+  border-top: 1px solid #dddddd;
+  padding-top: 2rem;
+}
+
+.usersList_emptyPlaceholder {
+  font-size: 20rem;
+  opacity: 0.2;
+  line-height: 0;
+}

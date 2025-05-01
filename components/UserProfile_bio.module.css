@@ -1,0 +1,11 @@
+.userProfile_bio_info {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.userProfile_bio_info_name {
+  width: 100%;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid #e2e2e2;
+}

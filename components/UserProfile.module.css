@@ -1,0 +1,6 @@
+.userProfile {
+  display: flex;
+  align-items: center;
+  /* padding: 1rem 0; */
+  margin-bottom:2rem
+}

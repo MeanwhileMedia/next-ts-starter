@@ -1,0 +1,35 @@
+.usersListItem {
+  list-style: none;
+  margin: 0;
+  padding: 1rem;
+}
+
+.usersListItem a {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  color: #393939;
+}
+
+.usersListItem:hover {
+  background-color: #f0f0f0;
+}
+
+.usersListItem_avatar {
+  color: #c5c5c5;
+  line-height: 0;
+  font-size: 4rem;
+  width: 50px;
+  border-radius: 50%;
+  height: 50px;
+  overflow: hidden;
+  border: 1px solid #989898;
+  display: inline-block;
+}
+
+.usersListItem_name {
+  display: inline-block;
+  margin-left: 1rem;
+}
