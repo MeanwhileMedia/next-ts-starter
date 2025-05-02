@@ -7,26 +7,27 @@ Starter code for building a Typescript, Next.js, React app. It comes with:
 
 ## Usage
 
-1. Install system dependencies
-Install the newest stable version of Node. NVM is the suggested tool which provides instructions [here](https://github.com/nvm-sh/nvm?tab=readme-ov-file#intro).
+##### 1. Install system dependencies:
 
-2. Install app dependencies
+  Install the newest stable version of Node. NVM is the suggested tool which provides instructions [here](https://github.com/nvm-sh/nvm?tab=readme-ov-file#intro).
+
+##### 2. Install app dependencies
 ```
 npm install
 ```
 
-3. If connecting with an external API, add keys to a new a `.env.local` file in the project root. For example:
+##### 3. If connecting with an external API, add keys to a new a `.env.local` file in the project root. For example:
 ```
 FOO_API_ID={yourPrivateID}
 FOO_API_KEY={yourPrivateKey}
 ```
 
-4. Run in local browser
+##### 4. Run in local browser
 ```
 npm run dev
 ```
 
-5. Visit http://localhost:3000/hello
+##### 5. Visit http://localhost:3000/hello
 
 ## Tests
 To execute automated tests run the following command. This will run both unit tests (Mocha) and end-to-end tests (Cypress):
